@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PASSGEN</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="modal.css">
+  <link rel="icon" href="logo-x.png" type="image/x-icon"/>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  
+  </head>
+  <body>
+    <!-- Trigger/Open The Modal -->
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>PASSGEN v0.0.1</h2>
+      <br>
+      <p class="notlar" ><i class="fas fa-check-square"></i> Arayüz yeniden geliştirildi.
+        <br>
+         <i class="fas fa-check-square"></i> Şifre Uzunluğu 20 karaktere sabitlendi.
+         <br>
+         <i class="fas fa-check-square"></i> Sayı, Harf, Sayı ve Harf, Karışık seçenekleri eklendi.
+         <br>
+         <i class="fas fa-check-square"></i> Mobil kullanıcılar için kolaylık olması açısından ekstra bir buton eklendi.
+         <br>
+         <b>v0.0.1</b><br>
+         <i class="fas fa-check-square"></i> Çeşitli arayüz güncelleştirmeleri.
+         <br>
+         <i class="fas fa-check-square"></i> Ufak hatalar giderildi.
+         
+         
+      </p>
+  </div>
+
+</div>
+    <div class="container">
+      <img src="logo-x.png" class="logoresim" alt="Logo Resmi">
+      <div class="text">
+        PASSGEN v0.0.1</div>
+<div class="input-data">
+        <div class="display">
+          <input type="text" id="kopyala">
+          <span class="far fa-copy" onclick="copy()"></span>
+          <span class="fas fa-copy" onclick="copy()"></span>
+        </div>
+<button>ŞİFRE OLUŞTUR&nbsp;&nbsp;<i class="fas fa-shield-alt"></i></button>
+<!-- <button onclick="copy()" >PANOYA KOPYALA&nbsp;&nbsp;<i class="fas fa-clipboard"></i></button> -->
+<div class="kutu">
+  Sayı
+    <input type="radio" class="cbox" name="checks" id="sayisal">&nbsp;&nbsp;
+    Harf
+    <input type="radio" class="cbox" name="checks" id="harf">&nbsp;&nbsp;
+    Harf ve Sayı
+    
+    <input type="radio" class="cbox" name="checks" id="harfsayi">&nbsp;&nbsp;
+    Karışık
+    
+    <input type="radio" class="cbox" name="checks" id="random">&nbsp;&nbsp;
+
+
+
+<button id="myBtn">Güncelleme Notları</button>
+<p class="madeXRTH">XRTH PROJEKT <i class="fas fa-heart"></i> you.</i></p>
+
+</div>
+      </div>
+       <p class="copy"></p>
+</div>
+    
+<script src="app.js"></script>
+<script src="modal.js"></script>
+<script src="screen.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: 'Quicksand', sans-serif; */
+  font-family: 'Inter', sans-serif;
+
+}
+.logoresim{
+  width: 64px;
+  height: 64px;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  place-items: center;
+  background: #fff;
+  text-align: center;
+}
+.copy{
+  color:#444;
+}
+.container{
+  width: 450px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 20px 25px;
+}
+.container .text{
+  color: #444;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 35px;
+}
+.container .input-data{
+  margin: 20px 5px 15px 5px;
+}
+/* input{
+   margin-left: 5px; 
+} */
+.input-data .display{
+  height: 45px;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.input-data .display input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #444;
+  border: 1px solid #fff;
+  background: #eee;
+  padding: 10px;
+  font-size: 17px;
+  pointer-events: none;
+  user-select: none;
+}
+.input-data .display span{
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 25px;
+  color: #444;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+}
+.input-data .display span:hover{
+  color: #6818a5;
+}
+.input-data button{
+  display: block;
+  height: 45px;
+  width: 100%;
+  margin-top: 15px;
+  border: 1px solid #fff;
+  outline: none;
+  background: #eee;
+  color: #444;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.input-data button:hover{
+  background: #6818a5;
+  color: #fff;
+}
+
+.kutu
+{
+  margin-top: 10px;
+}
+
+.madeXRTH{
+  margin-top: 10px;
+  color: #eee;
+}

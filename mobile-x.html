@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PASSGEN (Beta)</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="modal.css">
+
+
+
+  <link rel="icon" href="logo-x.png" type="image/x-icon"/>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  
+  </head>
+  <body>
+    <!-- Trigger/Open The Modal -->
+    <div class="container">
+      <img src="logo-x.png" class="logoresim" alt="Logo Resmi">
+      <div class="text">
+PASSGEN (Beta)</div>
+<div class="input-data">
+        <div class="display">
+          <input type="text" id="kopyala">
+          <span class="far fa-copy" onclick="copy()"></span>
+          <span class="fas fa-copy" onclick="copy()"></span>
+        </div>
+<button>ŞİFRE OLUŞTUR&nbsp;&nbsp;<i class="fas fa-shield-alt"></i></button>
+<button onclick="copy()" >PANOYA KOPYALA&nbsp;&nbsp;<i class="fas fa-clipboard"></i></button>
+<div class="kutu">
+Sayı
+<input type="radio" class="cbox" name="checks" id="sayisal">
+Harf
+<input type="radio" class="cbox" name="checks" id="harf">
+Harf ve Sayı
+<input type="radio" class="cbox" name="checks" id="harfsayi">
+Karışık
+<input type="radio" class="cbox" name="checks" id="random">
+<button id="myBtn">Güncelleme Notları</button>
+<p class="madeXRTH">XRTH PROJEKT <i class="fas fa-heart"></i> you.</i></p>
+
+</div>
+      </div>
+       <p class="copy"></p>
+</div>
+    
+<script src="app.js"></script>
+<!-- <script src="modal.js"></script> -->
+
+  </body>
+</html>
